@@ -62,6 +62,27 @@ Total parameters: 66,250
 
 ---
 
+
+
+## Dataset
+
+This project uses the MNIST dataset (70,000 handwritten digit images, 32×32 pixels).
+
+The dataset is not included in this repository due to size constraints (60,000
+training images + 10,000 test images).
+
+**To download it:**
+- Official source: http://yann.lecun.com/exdb/mnist/
+- Or via Python:
+
+```python
+from sklearn.datasets import fetch_openml
+mnist = fetch_openml('mnist_784', version=1)
+```
+
+Images were resized to 32×32 pixels and saved as PNG files with labels in
+the filename (e.g. `train_00000_label_5.png`).
+
 ## Why from scratch?
 
 Building ML models without libraries forces a deep understanding of what
