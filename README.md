@@ -56,3 +56,29 @@ Total parameters: 66,250
 ---
 
 ## Files
+├── TP_perceptron_multicouche_MNIST_32x32.ipynb   # Full implementation
+├── slides_TP4_MLP.pdf                             # Presentation slides
+└── README.md
+
+---
+
+## Why from scratch?
+
+Building ML models without libraries forces a deep understanding of what
+optimization algorithms actually do. This project is part of a broader approach
+to machine learning that prioritizes mathematical understanding over API usage.
+
+Related work: [Housing price prediction using gradient descent and Lagrange
+multipliers — no ML libraries](link-to-other-repo)
+
+---
+
+## Requirements
+
+```bash
+pip install numpy matplotlib
+```
+
+---
+
+*Université de Yaoundé I — Département d'Informatique*
